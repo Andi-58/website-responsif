@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Basic HTML Website</title>
+</head>
+
+<body>
+    <div class=" md:container md:mx-auto font-poppins">
+        <!-- navbar -->
+        <div
+            class="bg-primary flex flex-col items-center border-b border-zinc-200 p-4 md:border-none md:flex-row md:justify-between">
+            <div class="text-xl mb-2 font-semibold text-slate-200 underline  hover:text-tertiary md:pl-6">
+                <a href="">
+                    <h1>
+                        Andi Firmansyah
+                    </h1>
+                </a>
+            </div>
+            <div class="text-lg font-semibold text-slate-200 md:pr-6">
+                <ul class="flex">
+                    <a href="">
+                        <li class="pr-6 hover:text-tertiary">Home</li>
+                    </a>
+                    <a href="">
+                        <li class="pr-6 hover:text-tertiary">Projects</li>
+                    </a>
+                    <a href="">
+                        <li class="pr-6 hover:text-tertiary">Articles</li>
+                    </a>
+                    <a href="">
+                        <li class="hover:text-tertiary">Contact</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+
+        <!-- hero -->
+        <div class="flex text-center justify-center flex-col h-96 bg-primary text-slate-200">
+            <h1 class="text-4xl font-semibold md:text-6xl">Frontend Developer</h1>
+            <p class="mt-2 md:text-xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, in.</p>
+        </div>
+
+        <!-- penjelasan -->
+        <div class="grid grid-cols-1 bg-zinc-200 p-8 md:grid-cols-3">
+            <div class="p-4 border-b-2 border-black md:border-none">
+                <h1 class="text-2xl pb-3">Projects</h1>
+                <ul class="underline underline-offset-2">
+                    <li class="mb-1">HTML Only Portfolio</li>
+                    <li class="mb-1">Calculator</li>
+                    <li class="mb-1">Quiz App</li>
+                    <li class="mb-1">Counterdown Timer</li>
+                    <li class="mb-1">Product Upcoming Page</li>
+                </ul>
+            </div>
+            <div class="p-4 border-b-2 border-black md:border-none">
+                <div class="mb-8">
+                    <h1 class="text-2xl mb-2">Work Experience</h1>
+                    <p class="text-blue-900">
+                        <a href="https://roadmap.sh/">
+                            roadmap.sh
+                        </a>
+                    </p>
+                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, nam.</p>
+                    <span class="text-blue-900">
+                        <a href="#">Visit my Profile</a>
+                    </span>
+
+                </div>
+                <div>
+                    <h2 class="text-2xl mb-2">OpenSource Work</h2>
+                    <p class="mb-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorum eveniet maxime, vitae
+                        facilis voluptatum debitis doloremque perspiciatis illum natus?
+                    </p>
+                    <span class="text-blue-900">
+                        <a href="#">Visit my GitHub Profile</a>
+                    </span>
+                </div>
+            </div>
+            <div class="p-4">
+                <div>
+                    <h1 class="text-2xl mb-2">Education</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo esse sunt ut est, itaque saepe
+                        reprehenderit quia illum.</p>
+                </div>
+                <div class="mt-8">
+                    <h1 class="text-lg">Courses I took:</h1>
+                    <ul class="list-disc pl-5">
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- review from my teacher -->
+        <div class="bg-primary p-8 md:p-16">
+            <h1 class="text-xl font-semibold text-slate-200">
+                Reviews From my Teachers
+            </h1>
+
+            <!-- card reviews -->
+            <div class="grid grid-cols-1 gap-2 mt-6 md:grid-cols-2 lg:grid-cols-3">
+                <div class="bg-zinc-200 p-6 border-2 border-black rounded-3xl">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nulla pariatur, quas eum
+                        illo aliquam.
+                    </p>
+                    <div class="mt-2 text-slate-500">
+                        <h1>John Wick</h1>
+                        <h2>Physics Lecturer</h2>
+                    </div>
+                </div>
+                <div class="bg-zinc-200 p-6 border-2 border-black rounded-3xl">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nulla pariatur, quas eum
+                        illo aliquam.
+                    </p>
+                    <div class="mt-2 text-slate-500">
+                        <h1>John Wick</h1>
+                        <h2>Physics Lecturer</h2>
+                    </div>
+                </div>
+                <div class="bg-zinc-200 p-6 border-2 border-black rounded-3xl">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nulla pariatur, quas eum
+                        illo aliquam.
+                    </p>
+                    <div class="mt-2 text-slate-500">
+                        <h1>John Wick</h1>
+                        <h2>Physics Lecturer</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="flex justify-center bg-primary p-9">
+            <h1 class="font-semibold text-slate-200">
+                &copy; all rights reserved 2025
+            </h1>
+        </div>
+
+    </div>
+</body>
+
+</html>
