@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="js/index.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -18,16 +17,22 @@
     <div class=" md:container md:mx-auto font-poppins">
         <!-- navbar -->
         <div
-            class="bg-primary flex flex-col items-center border-b border-zinc-200 p-4 md:border-none md:flex-row md:justify-between">
-            <div class="text-xl mb-2 font-semibold text-slate-200 underline  hover:text-tertiary md:pl-6">
-                <a href="">
-                    <h1>
-                        Andi Firmansyah
-                    </h1>
-                </a>
+            class="relative bg-primary flex flex-col border-b border-zinc-200 p-4 md:border-none md:flex-row md:justify-between">
+            <div class=" flex flex-row justify-between font-semibold text-slate-200 underline md:pl-6">
+                <div class="hover:text-tertiary pt-3 ">
+                    <a href="">
+                        <h1>
+                            Andi Firmansyah
+                        </h1>
+                    </a>
+                </div>
+                <div id="menu-bar" class="md:hidden">
+                    <img class="w-10" src="img/menu.png" alt="gambar-menu">
+                </div>
             </div>
-            <div class="text-lg font-semibold text-slate-200 md:pr-6">
-                <ul class="flex">
+            <div id="list-menu"
+                class=" absolute hidden bottom-[-9.5rem] right-0 p-5  bg-zinc-200/50 w-full text-lg font-semibold text-slate-800 md:pr-6 md:block md:bg-primary md:text-slate-200 md:w-max md:items-center md:bottom-0 md:text-base">
+                <ul class="flex flex-col md:flex-row">
                     <a href="">
                         <li class="pr-6 hover:text-tertiary">Home</li>
                     </a>
@@ -159,6 +164,7 @@
         </div>
 
     </div>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
